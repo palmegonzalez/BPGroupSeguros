@@ -1,0 +1,123 @@
+
+body {
+	height: auto;
+	margin-left:10px; 
+	margin-top:15px; 
+	color: black;
+	font-family: verdana;
+	font-size:14px;
+	background: url(./imagenes/bg_body.jpg) repeat-x scroll 50% 0 transparent;
+	
+}
+
+.top {
+	background:url(imagenes/fondo%20alto.png);
+	width: 1004px;
+	height: 22px;
+	margin: auto;
+}
+
+.all {
+	background: url(imagenes/fondo%20page.png) repeat-y scroll 0 0 transparent;
+	width: 1004px;
+	height: auto;
+	margin: auto;
+	/*border-bottom: 10px solid #999 #E6E6E6*/;
+    /*border-left: 10px solid #999 #E6E6E6*/;
+    /*border-right: 10px solid #999 #E6E6E6*/;
+	/*border-top: 10px solid #999 #E6E6E6*/;
+	
+}
+
+#cabezera {
+	margin:auto;
+	width:950px;
+	height:240px;
+	background: white;
+}
+
+#logo {
+	margin-left: 75px;
+	margin-bottom: 24px;
+	width:800px;
+	height:154px;
+}
+
+/*   MENU  */
+
+#menu {
+    
+}
+#menu ul {
+	background: #6E6E6E     /* #333 */;
+	list-style: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 950px;
+}
+#menu li {
+	font-family: "verdana","Helvetica Neue",helvetica,"microsoft sans serif",arial,sans-serif;
+	font-size: 10px;
+	margin: 0;
+	padding: 0;
+}
+#menu a {
+	color: #FFF;
+	display: block;
+	float: left;
+	margin-left: 61px;
+	padding: 8px 30px;
+	text-decoration: none;
+}
+#menu a:hover {
+	background: #0071B6;
+	color: #fff;
+	padding-bottom: 8px;
+}
+
+/* FIN DE MENU */
+
+.page {
+	background: white;
+	width:950px;
+	height:auto;                     
+	margin:auto;
+	
+} 
+
+.pie {
+	text-align: right;
+	width: 950px;
+	height: 25px;
+	font-size: 10px
+}
+
+.bottom {
+	background:url(imagenes/fondo%20bajo.png);
+	width: 1004px;
+	height: 22px;
+	margin: auto;
+}
+
+/* CSS CONTACTO.PHP */
+
+.mapa {
+	width: 475px;
+	float: left;
+}
+
+.formulario-contacto {
+	width: 475px;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
