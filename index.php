@@ -47,7 +47,7 @@
 	<!-- FIN DE PAGE -->
 
 	<div class="pie">
-		<br /> ©2013 BP Group Seguros todos los derechos reservados.
+		<br /> 2013 BP Group Seguros todos los derechos reservados.
 	</div>
 
 </div>                             <!-- FIN DE ALL -->

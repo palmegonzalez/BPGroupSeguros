@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang="es">
+
 <head>
 	<title> BP Group Seguros - Contacto</title>
     <meta name="author" content="Porro Betina González Augusto">
@@ -11,9 +13,15 @@
 	<link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.css" type="text/css">
 	<link rel="stylesheet" href="estilo.css" type="text/css">
 	<link rel="javascript" href="bootstrap/js/bootstrap.js" type="text/javascript" >
+
+
+
+
+
 </head>
 
 <body>
+
 
 <div class="top"></div>
 
@@ -39,40 +47,39 @@
 	</div>
 	<!-- FIN CABEZERA -->
 
-	<div class="page" style="height: 900px;">
+	<div class="page" >
 		<div class="mapa">
+			<legend> Oficina de Seguros </legend>
 			<address style="font-size: 13px;">
-				<strong>Oficina de Seguros</strong>
-				<br>
 				Av. 19 e/ 46 y 47
 				<br>
 				<abbr title="Telefono">Tel:</abbr> 221 482-0957
 				<br>
 				<abbr title="Celular">Cel:</abbr> 221 (15)6159582
 				<br>
-				La Plata, Buenos Aires, Argentina
+				<strong>La Plata, Buenos Aires, Argentina</strong>
 				<br>
 			</address>
 			<iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=201554196545272614248.0004dd6d93530d0bbbf0f&amp;ie=UTF8&amp;t=m&amp;ll=-34.924469,-57.963781&amp;spn=0.010556,0.012875&amp;z=15&amp;output=embed"></iframe><br /><small>Ver <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=201554196545272614248.0004dd6d93530d0bbbf0f&amp;ie=UTF8&amp;t=m&amp;ll=-34.924469,-57.963781&amp;spn=0.010556,0.012875&amp;z=15&amp;source=embed" style="color:#0000FF;text-align:left">BP Group Seguros</a> en un mapa mas grande</small>				
 		</div>
 		<div class="formulario-contacto">
-			<form class="form-vertical">
+			<form id="contacto" class="form-vertical" action="" method="post">
 				<fieldset>
 					<legend> Contacto </legend>
-					<label>Nombre</label>
-					<input type="text" class="input-large" placeholder="Escriba su nombre.." required>
+					<label>Nombre:</label>
+					<input type="text" class="input-large" id="nombre" name="nombree" placeholder="Escriba su nombre..">
 					
-					<label>Apellido</label>
-					<input type="text" class="input-large" placeholder="Escriba su apellido.." required>
+					<label>Apellido:</label>
+					<input type="text" class="input-large" id="apellido" name="apellidoo" placeholder="Escriba su apellido.." required>
 					
-					<label>Email</label>
-					<input type="email" class="input-large" placeholder="ejemplo@servidor.com" required>
+					<label>Email:</label>
+					<input type="email" class="input-large" id="mail" name="maill" placeholder="ejemplo@servidor.com" required>
 					
-					<label>Telefono</label>
-					<input type="tel" class="input-large" placeholder="Escriba su telefono.." required>
+					<label>Telefono:</label>
+					<input type="tel" class="input-large" id="tel" name="tell" placeholder="Escriba su telefono.." required>
 					<span class="help-block" style="font-size: 10px;margin-top: -12px;"> Sin Espacios. Ej: 2214517853 </span>
 					
-					<label>Consulta</label>
+					<label>Consulta:</label>
 					<textarea rows="5"></textarea>
 					
 					<div>
@@ -81,6 +88,7 @@
 				</fieldset>
 			</form>
 		</div>
+		<center><img src="imagenes/bannerfedpat.jpg" alt="Federacion Patronal Seguros S.A." border="0"></center>
 	</div>
 	<!-- FIN DE PAGE -->
 
@@ -91,6 +99,15 @@
 </div>                             <!-- FIN DE ALL -->
 
 <div class="bottom"></div>
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>

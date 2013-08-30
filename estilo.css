@@ -103,13 +103,17 @@ body {
 /* CSS CONTACTO.PHP */
 
 .mapa {
-	width: 475px;
+	width: 445px;
 	float: left;
+	margin-left: 30px;
+	margin-top: 25px;
 }
 
 .formulario-contacto {
-	width: 475px;
+	width: 445px;
 	float: right;
+	margin-top: 25px;
+	margin-right: 30px;
 }
 
 
